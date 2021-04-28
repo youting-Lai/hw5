@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+   <link href="css/style.css" rel="stylesheet">
+
+
+	    <style>
+            <link href="css/style.css" rel="stylesheet">
+
+         body {
+            height:3000px;
+         }
+         .drangon-ball-char {
+            z-index: 10;
+            position: absolute;
+         }
+
+          #bg-block {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background: url('images/backcat.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -webkit-filter: blur(5px);
+         }
+      </style>
+     
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+	   <script src="js/skrollr.min.js"></script>
+</head>
+
+
+
+<body>
+ <div id="bg-block">
+      </div>
+	  
+ <div class="drangon-ball-char" style="top:0.5px;width:100%;text-align:center">
+         <img src="images/cat0.jpg" style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-0="opacity: 1;-webkit-filter: blur(0px);" data-100="opacity: 0.5;-webkit-filter: blur(5px);" class="skrollable skrollable-between">
+      </div>
+	  
+      <div class="drangon-ball-char skrollable " style="top: 400px; opacity: 1; right: -500px; -webkit-filter: blur(0px);" data-0="opacity: 1;right: 200px;-webkit-filter: blur(0px);" data-300="opacity: 0.5;right: 300px;-webkit-filter: blur(0px);" data-600="opacity: 0;right: 400px;-webkit-filter: blur(5px);">
+         <img src="images/cat1.jpg" style="width:400px;">
+      </div>
+
+      <div class="drangon-ball-char skrollable " style="top: 600px; opacity: 1; left: 500px; -webkit-filter: blur(0px);" data-300="opacity: 1;left: 400px;-webkit-filter: blur(0px);" data-600="opacity: 0.5;left: 300px;-webkit-filter: blur(0px);" data-900="opacity: 0;left: 200px;-webkit-filter: blur(5px);">
+         <img src="images/cat2.jpg" style="width:400px;">
+      </div>
+
+      <div class="drangon-ball-char skrollable skrollable-before" style="top: 900px; opacity: 1; left: 500px; -webkit-filter: blur(0px);" data-600="opacity: 1;left: 500px;-webkit-filter: blur(0px);" data-900="opacity: 0.5;left: 300px;-webkit-filter: blur(0px);" data-1200="opacity: 0;left: 200px;-webkit-filter: blur(5px);">
+         <img src="images/cat3.jpg" style="width:400px;">
+      </div>
+      <div class="drangon-ball-char skrollable skrollable-before" style="top: 1200px; opacity: 1; left: -800px; -webkit-filter: blur(0px);" data-900="opacity: 1;left: 800px;-webkit-filter: blur(0px);" data-1200="opacity: 1;left: 500px;-webkit-filter: blur(0px);" data-1500="opacity: 0;left: 200px;-webkit-filter: blur(5px);">
+         <img src="images/cat4.jpg" style="width:400px;">
+      </div>
+
+ <div class="drangon-ball-char skrollable skrollable-before" style="top: 1500px; opacity: 1; left: -500px; -webkit-filter: blur(0px);" data-1200="opacity: 1;left: -500px;-webkit-filter: blur(0px);" data-1500="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-1800="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="images/cat5.jpg" style="width:400px;">
+      </div>
+      <div class="drangon-ball-char skrollable skrollable-before" style="top: 1800px; opacity: 1; left: -500px; -webkit-filter: blur(0px);" data-1500="opacity: 1;left: -500px;-webkit-filter: blur(0px);" data-1800="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-2100="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="images/cat7.jpg" style="width:400px;">
+      </div>
+
+      <div class="drangon-ball-char skrollable skrollable-before" style="top: 2100px; opacity: 1; left: -100px; -webkit-filter: blur(0px);" data-1800="opacity: 1;right: -500px;-webkit-filter: blur(0px);" data-2100="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-2400="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="images/cat8.jpg" style="width:400px;">
+      </div>
+
+      <div class="drangon-ball-char skrollable skrollable-before" style="top: 2400px; opacity: 1; left: -500px; -webkit-filter: blur(0px);" data-2100="opacity: 1;left: -500px;-webkit-filter: blur(0px);" data-2400="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-2500="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="images/cat9.jpg" style="width:400px;">
+      </div>
+
+      <div class="drangon-ball-char" style="top:3000px;width:100%;text-align:center">
+         <img src="images/cat6.png" style="width: 900px; opacity: 0; -webkit-filter: blur(5px);" data-2700="opacity: 0;-webkit-filter: blur(5px);" data-3000="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      
+      </div>
+      <script type="text/javascript">
+      var skrollr_obj = skrollr.init();
+      </script>
+   
+</body>
+</html>
